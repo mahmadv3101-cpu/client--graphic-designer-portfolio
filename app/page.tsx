@@ -1,8 +1,36 @@
 'use client';
 
+import { useEffect } from 'react';
+
 export default function Home() {
+  useEffect(() => {
+    const root = document.documentElement;
+    const handlePointerMove = (event: PointerEvent) => {
+      root.style.setProperty('--pointer-x', `${event.clientX}px`);
+      root.style.setProperty('--pointer-y', `${event.clientY}px`);
+    };
+    const handlePointerDown = (event: PointerEvent) => {
+      const pulse = document.createElement('span');
+      pulse.className = 'click-pulse';
+      pulse.style.left = `${event.clientX}px`;
+      pulse.style.top = `${event.clientY}px`;
+      document.body.appendChild(pulse);
+      pulse.addEventListener('animationend', () => pulse.remove(), { once: true });
+    };
+
+    window.addEventListener('pointermove', handlePointerMove, { passive: true });
+    window.addEventListener('pointerdown', handlePointerDown, { passive: true });
+    return () => {
+      window.removeEventListener('pointermove', handlePointerMove);
+      window.removeEventListener('pointerdown', handlePointerDown);
+    };
+  }, []);
+
   return (
     <>
+      <div className="scroll-progress" aria-hidden="true" />
+      <div className="cursor-glow" aria-hidden="true" />
+      <a className="back-to-top" href="#top" aria-label="Back to top">↑</a>
       <main id="top">
         <section className="hero reference-cover">
           <div className="cover-top micro"><span>GRAPHIC DESIGN PORTFOLIO</span><span>AYYAN KHAN · 2026</span></div>
