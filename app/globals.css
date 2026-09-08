@@ -39,3 +39,10 @@
 @media(max-width:767px){.reference-cover{min-height:calc(100svh - 70px);padding:22px 5.5% 14px}.cover-top span:last-child{display:block}.cover-stage{min-height:515px;padding:75px 0 60px}.cover-kicker{left:2%;top:12%;font-size:17px}.cover-selection{width:94%;height:205px;min-height:0}.cover-selection h1{font-size:20.5vw}.handle{width:10px;height:10px}.handle.h1,.handle.h7,.handle.h8{left:-5px}.handle.h2{top:-5px}.handle.h3,.handle.h4,.handle.h5{right:-5px}.handle.h1,.handle.h3{top:-5px}.handle.h5,.handle.h6,.handle.h7{bottom:-5px}.cover-signature{right:3%;bottom:11%;font-size:13vw}.cover-role{left:3%;bottom:8%;font-size:8px}.cover-bottom{display:block}.cover-bottom>p{font-size:10px;max-width:310px}.cover-bottom .hero-actions{margin-top:18px;display:flex}.cover-bottom .hero-actions a{padding:11px 12px;font-size:7px}.reference-cover .hero-foot{font-size:6.5px;margin-top:15px}}
 
 @media(prefers-reduced-motion:reduce){.cover-orb{animation:none}}
+
+/* Corrected presentation flow */
+.cover-stage{min-height:540px;padding:64px 0 42px}.cover-selection{height:min(340px,28vw);min-height:240px}
+.about-image img{position:absolute;right:0;top:-12.5%;height:125%;width:auto;max-width:none;object-fit:contain;object-position:right center}
+.category-project{padding:0!important}.category-project>.dark-title-card{margin:0}.category-project>.social-stage{margin-top:0;padding-top:80px;padding-bottom:110px}.category-project>.banner-stage{margin-top:0}.poster-section.category-project>.poster-grid{padding:90px 4.2% 120px}.packaging-section.category-project>.packaging-stage,.digital-section.category-project>.digital-stage{margin:0}.identity-section>.dark-title-card:first-child{margin-top:-70px}
+
+@media(max-width:767px){.reference-cover{min-height:100svh}.cover-stage{min-height:480px;padding:70px 0 55px}.cover-selection{height:205px;min-height:0}.category-project>.social-stage{padding-top:55px;padding-bottom:75px}.poster-section.category-project>.poster-grid{padding:65px 5.5% 90px}.about-image img{height:132%;width:auto;top:-16%;right:-5%}}
