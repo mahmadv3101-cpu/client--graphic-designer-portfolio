@@ -86,9 +86,13 @@ export default function Home() {
         <section id="digital" className="digital-section light-section category-project"><div className="dark-title-card reveal"><div className="selection-frame"><h2>UI UX Design</h2></div><p>Clear, modern interface concepts created for intuitive digital experiences.</p></div><div className="digital-stage reveal"><img src="/portfolio/nexa.jpg" width="1600" height="1000" loading="lazy" alt="NEXA UI and UX design concept visual"/><div className="digital-card"><span>NE<span>X</span>A</span><p>IDEAS<br/>IN MOTION</p><small>CONCEPT DIGITAL EXPERIENCE</small></div></div></section>
 
         <section className="thanks-section">
-          <div className="thanks-note">Let&apos;s Work<br/>Together <span>↗</span></div>
-          <div className="thanks-frame selection-frame reveal"><h2>Thanks For Scrolling!</h2></div>
-          <a className="thanks-badge" href="#contact" aria-label="Go to contact section">AK</a>
+          <div className="thanks-note">Let&apos;s Work<br/>Together</div>
+          <div className="thanks-frame reveal">
+            <i className="thanks-handle th1"/><i className="thanks-handle th2"/><i className="thanks-handle th3"/><i className="thanks-handle th4"/><i className="thanks-handle th5"/><i className="thanks-handle th6"/><i className="thanks-handle th7"/><i className="thanks-handle th8"/>
+            <h2><span>Thanks</span> For Scrolling!</h2>
+          </div>
+          <a className="thanks-badge badge-top" href="#contact" aria-label="Go to contact section">Ai</a>
+          <a className="thanks-badge badge-bottom" href="#contact" aria-label="Go to contact section">Ps</a>
         </section>
 
         <section id="contact" className="contact-section"><span className="micro">11 / LET&apos;S WORK TOGETHER</span><h2>LET&apos;S CREATE<br/><em>SOMETHING GREAT.</em></h2><p>Have an idea, brand or project in mind? Let&apos;s turn it into something visually memorable.</p><div className="contact-links"><a href="mailto:ayyankhanak20@gmail.com">START A PROJECT ↗</a><a href="tel:03334531414">0333-4531414 ↗</a></div></section>
