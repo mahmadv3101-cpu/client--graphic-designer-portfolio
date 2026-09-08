@@ -75,25 +75,33 @@ export default function Home() {
 
         <section id="posters" className="light-section poster-section category-project">
           <div className="dark-title-card reveal"><div className="selection-frame"><h2>Print Media</h2></div><p>Expressive poster and print studies exploring typography, scale and visual rhythm.</p></div>
-          <div className="awaiting-projects"><span>05 / PRINT MEDIA</span><p>Project images will be added next.</p></div>
+          <div className="portfolio-board-gallery reveal">
+            <img src="/portfolio/client/print-brochure.png" width="1642" height="862" loading="lazy" alt="Brochure design presentation"/>
+            <img src="/portfolio/client/print-billboards.png" width="1640" height="872" loading="lazy" alt="Billboard design presentation"/>
+            <img src="/portfolio/client/print-standees.png" width="1648" height="873" loading="lazy" alt="Standee design presentation"/>
+          </div>
         </section>
 
         <section id="packaging" className="section packaging-section category-project">
           <div className="dark-title-card reveal"><div className="selection-frame"><h2>Packaging</h2></div><p>Thoughtful packaging concepts shaped by material, form and brand personality.</p></div>
-          <div className="awaiting-projects dark-placeholder"><span>04 / PACKAGING DESIGN</span><p>Project images will be added next.</p></div>
-        </section>
-
-        <section id="digital" className="digital-section light-section category-project"><div className="dark-title-card reveal"><div className="selection-frame"><h2>UI UX Design</h2></div><p>Clear, modern interface concepts created for intuitive digital experiences.</p></div><div className="digital-stage reveal"><img src="/portfolio/nexa.jpg" width="1600" height="1000" loading="lazy" alt="NEXA UI and UX design concept visual"/><div className="digital-card"><span>NE<span>X</span>A</span><p>IDEAS<br/>IN MOTION</p><small>CONCEPT DIGITAL EXPERIENCE</small></div></div></section>
-
-        <section className="thanks-section">
-          <div className="thanks-note">Let&apos;s Work<br/>Together</div>
-          <div className="thanks-frame reveal">
-            <i className="thanks-handle th1"/><i className="thanks-handle th2"/><i className="thanks-handle th3"/><i className="thanks-handle th4"/><i className="thanks-handle th5"/><i className="thanks-handle th6"/><i className="thanks-handle th7"/><i className="thanks-handle th8"/>
-            <h2><span>Thanks</span> For Scrolling!</h2>
+          <div className="portfolio-board-gallery reveal">
+            <img src="/portfolio/client/packaging-set-01.png" width="1640" height="872" loading="lazy" alt="Packaging design collection with dates, beverage, food and cosmetics"/>
+            <img src="/portfolio/client/packaging-set-02.png" width="1640" height="872" loading="lazy" alt="Packaging design collection with ice cream, spices, ketchup, lighting and snacks"/>
           </div>
-          <a className="thanks-badge badge-top" href="#contact" aria-label="Go to contact section">Ai</a>
-          <a className="thanks-badge badge-bottom" href="#contact" aria-label="Go to contact section">Ps</a>
         </section>
+
+        <section id="digital" className="digital-section light-section category-project">
+          <div className="dark-title-card reveal"><div className="selection-frame"><h2>UI UX Design</h2></div><p>App and web experiences designed around clarity, discovery and intuitive navigation.</p></div>
+          <div className="portfolio-board-gallery reveal">
+            <img src="/portfolio/client/uiux-poppy-overview.png" width="1648" height="873" loading="lazy" alt="Poppy streaming app UI and UX project overview"/>
+            <img src="/portfolio/client/uiux-poppy-screens.png" width="1640" height="872" loading="lazy" alt="Poppy streaming app main screens"/>
+            <img src="/portfolio/client/uiux-epic-web.png" width="1640" height="872" loading="lazy" alt="Epic Game Store website redesign"/>
+          </div>
+        </section>
+
+        <a className="thanks-image-section reveal" href="#contact" aria-label="Continue to contact section">
+          <img src="/portfolio/client/thanks-scrolling-final.png" width="1545" height="550" loading="lazy" alt="Thanks for scrolling — let's work together"/>
+        </a>
 
         <section id="contact" className="contact-section"><span className="micro">11 / LET&apos;S WORK TOGETHER</span><h2>LET&apos;S CREATE<br/><em>SOMETHING GREAT.</em></h2><p>Have an idea, brand or project in mind? Let&apos;s turn it into something visually memorable.</p><div className="contact-links"><a href="mailto:ayyankhanak20@gmail.com">START A PROJECT ↗</a><a href="tel:03334531414">0333-4531414 ↗</a></div></section>
       </main>
