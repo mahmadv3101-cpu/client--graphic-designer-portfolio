@@ -55,11 +55,22 @@ export default function Home() {
       </header>
 
       <main id="top">
-        <section className="hero">
-          <div className="hero-top micro"><span>INDEPENDENT GRAPHIC DESIGNER</span><span>PAKISTAN / AVAILABLE WORLDWIDE</span></div>
-          <div className="hero-name"><h1>AYYAN</h1><div className="hero-portrait"><img src="/portfolio/hero.jpg" width="1000" height="1300" alt="Licensed editorial demo portrait; this person is not Ayyan Khan" /><span>DEMO PORTRAIT<br/>NOT AYYAN KHAN</span></div><h1>KHAN<span>.</span></h1></div>
-          <div className="hero-lower"><p className="hero-role">GRAPHIC<br/>DESIGNER</p><div className="hero-copy"><p>I TURN IDEAS INTO BOLD <em>VISUAL EXPERIENCES.</em></p><span>Creating distinctive identities, digital visuals and creative designs that make brands stand out.</span><div className="hero-actions"><a href="#work">VIEW MY WORK ↘</a><a href="mailto:ayyankhanak20@gmail.com">LET&apos;S TALK ↗</a></div></div></div>
-          <div className="hero-foot micro"><span>BRANDING · SOCIAL · PRINT · DIGITAL</span><span>SCROLL TO EXPLORE ↓</span></div>
+        <section className="hero reference-cover">
+          <div className="cover-top micro"><span>GRAPHIC DESIGN PORTFOLIO</span><span>AYYAN KHAN · 2026</span></div>
+          <div className="cover-stage">
+            <div className="cover-kicker">Graphic <span>Design</span></div>
+            <div className="cover-selection" aria-label="Portfolio by Ayyan Khan">
+              <i className="handle h1"/><i className="handle h2"/><i className="handle h3"/><i className="handle h4"/><i className="handle h5"/><i className="handle h6"/><i className="handle h7"/><i className="handle h8"/>
+              <h1>Portf<span className="cover-orb" aria-hidden="true"></span>lio</h1>
+            </div>
+            <p className="cover-signature">Ayyan Khan <span>↘</span></p>
+            <p className="cover-role">GRAPHIC<br/>DESIGNER</p>
+          </div>
+          <div className="cover-bottom">
+            <p>Brand identity, social media, print and digital design shaped with bold ideas and clear visual thinking.</p>
+            <div className="hero-actions"><a href="#work">EXPLORE WORK ↘</a><a href="mailto:ayyankhanak20@gmail.com">START A PROJECT ↗</a></div>
+          </div>
+          <div className="hero-foot micro"><span>PAKISTAN · AVAILABLE WORLDWIDE</span><span>SCROLL TO EXPLORE ↓</span></div>
         </section>
 
         <section id="about" className="paper-about">
